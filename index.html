@@ -8,10 +8,19 @@
     <h1 id ="title">Tell Me About Samouraï</h1>
     <p id="description">This is a survey where you can tell us what you know about Samouraï</p>
     <form id="survey-form">
-      Name: <input type="text" name="name" id="name" required></input></br>
-      Email: <input type="email" name="email" id="email" required></input></br>
-      Number: <input type="number" name="number" id="number" required></input></br>
+      <label id="name-label">Name:</label>
+      <input type="text" name="name" id="name" placeeholder="First Name" required></input></br>
+      <label id="email-label">Email:</label>
+      <input type="email" name="email" id="email" placeholder="Best Email" required></input></br>
+      <label id="number-label">Number:</label>
+      <input type="number" name="number" id="number" min="0" max="10" placeholder="$" required></input></br>
       <input type="submit"></br>
+      <select id="dropdown" name="saber">
+        <option value="Katana">Katana</option>
+        <option value="Wakisashi">Wakisashi</option>
+        <option value="Tento">Tento</option>
+        <option value="Other">Other</option>
+      </select>
     </form>
   </body>
 <html>
