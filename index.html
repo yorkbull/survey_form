@@ -9,18 +9,29 @@
     <p id="description">This is a survey where you can tell us what you know about Samouraï</p>
     <form id="survey-form">
       <label id="name-label">Name:</label>
-      <input type="text" name="name" id="name" placeeholder="First Name" required></input></br>
+      <input type="text" name="name" id="name" placeholder="First Name" required></input></br>
       <label id="email-label">Email:</label>
       <input type="email" name="email" id="email" placeholder="Best Email" required></input></br>
       <label id="number-label">Number:</label>
       <input type="number" name="number" id="number" min="0" max="10" placeholder="$" required></input></br>
-      <input type="submit"></br>
+
       <select id="dropdown" name="saber">
         <option value="Katana">Katana</option>
         <option value="Wakisashi">Wakisashi</option>
         <option value="Tento">Tento</option>
         <option value="Other">Other</option>
       </select>
+
+      </br>
+      <input type="radio" name="gender" value="male">Male</br>
+      <input type="radio" name="gender" value="Female">Female</br>
+      <input type="radio" name="gender" value="other">Other</br>
+
+      <input type="checkbox" name="class1" value="Samouraï"> I am a Samouraï</br>
+      <input type="checkbox" name="class2" value="Daimyo"> I am a Daimyo</br>
+      <input type="checkbox" name="class3" value="Shogun"> I am a Shogun</br>
+
+      <input type="submit"></br>
     </form>
   </body>
 <html>
