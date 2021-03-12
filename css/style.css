@@ -14,13 +14,22 @@ label {
 
 #radio {
   display: flex;
+  padding-bottom: 10px;
 }
 
 #checkbox {
-    display: flex;
+    padding-bottom: 10px;
 }
 
 form {
   background-color: #CC0000;
   padding: 30px;
+}
+
+textarea {
+  margin-top: 10px;
+}
+
+#submit {
+  margin-top: 10px;
 }
