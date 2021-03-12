@@ -1,1 +1,26 @@
 /* CSS*/
+
+body {
+  font-family: sans-serif;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+label {
+  font-size: 18px;
+  display: block;
+  padding-bottom: 10px;
+}
+
+#radio {
+  display: flex;
+}
+
+#checkbox {
+    display: flex;
+}
+
+form {
+  background-color: #CC0000;
+  padding: 30px;
+}

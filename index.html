@@ -9,7 +9,7 @@
 
   <body>
     <h1 id ="title">Tell Me About Samouraï</h1>
-    <p id="description">This is a survey where you can tell us what you know about Samouraï</p>
+    <p id="description">This is a survey where you can tell us what kind of Samouraï are you ?</p>
     <form id="survey-form">
       <label id="name-label">Name:</label>
       <input type="text" name="name" id="name" placeholder="First Name" required></input></br>
@@ -18,6 +18,7 @@
       <label id="number-label">Number:</label>
       <input type="number" name="number" id="number" min="0" max="10" placeholder="$" required></input></br>
 
+      <h2>What kinf of warrior are you ?</h2>
       <select id="dropdown" name="saber">
         <option value="Katana">Katana</option>
         <option value="Wakisashi">Wakisashi</option>
@@ -26,13 +27,18 @@
       </select>
 
       </br>
-      <input type="radio" name="gender" value="male">Male</br>
-      <input type="radio" name="gender" value="Female">Female</br>
-      <input type="radio" name="gender" value="other">Other</br>
+      <h3>Who are you ?</h3>
+      <div id="radio">
+        <input type="radio" name="gender" value="male">Male</br>
+        <input type="radio" name="gender" value="Female">Female</br>
+        <input type="radio" name="gender" value="other">Other</br>
+      </div>
 
-      <input type="checkbox" name="class1" value="Samouraï"> I am a Samouraï</br>
-      <input type="checkbox" name="class2" value="Daimyo"> I am a Daimyo</br>
-      <input type="checkbox" name="class3" value="Shogun"> I am a Shogun</br>
+      <div id="checkbox">
+        <input type="checkbox" name="class1" value="Samouraï"> I am a Samouraï</br>
+        <input type="checkbox" name="class2" value="Daimyo"> I am a Daimyo</br>
+        <input type="checkbox" name="class3" value="Shogun"> I am a Shogun</br>
+      </div>
 
       <textarea placeholder="additional comments"></textarea></br>
 
