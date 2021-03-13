@@ -11,12 +11,14 @@
     <h1 id ="title">Tell Me About Samouraï</h1>
     <p id="description">This is a survey where you can tell us what kind of Samouraï are you ?</p>
     <form id="survey-form">
-      <label id="name-label">Name:</label>
-      <input type="text" name="name" id="name" placeholder="First Name" required></input></br>
-      <label id="email-label">Email:</label>
-      <input type="email" name="email" id="email" placeholder="Best Email" required></input></br>
-      <label id="number-label">Number:</label>
-      <input type="number" name="number" id="number" min="0" max="10" placeholder="$" required></input></br>
+      <div id="info">
+        <label id="name-label">Name :</label>
+        <input type="text" name="name" id="name" placeholder="First Name" required></input>
+        <label id="email-label">Email :</label>
+        <input type="email" name="email" id="email" placeholder="Best Email" required></input>
+        <label id="number-label">Number :</label>
+        <input type="number" name="number" id="number" min="0" max="10" placeholder="$" required></input>
+      </div>
 
       <h2>What kind of weapon are you ?</h2>
       <select id="dropdown" name="saber">
@@ -26,21 +28,20 @@
         <option value="Other">Other</option>
       </select>
 
-      </br>
       <h3>Who are you ?</h3>
       <div id="radio">
-        <input type="radio" name="gender" value="male">Male</br>
-        <input type="radio" name="gender" value="Female">Female</br>
-        <input type="radio" name="gender" value="other">Other</br>
+        <input type="radio" name="gender" value="male">Male
+        <input type="radio" name="gender" value="Female">Female
+        <input type="radio" name="gender" value="other">Other
       </div>
 
       <div id="checkbox">
-        <input type="checkbox" name="class1" value="Samouraï"> I am a Samouraï</br>
-        <input type="checkbox" name="class2" value="Daimyo"> I am a Daimyo</br>
-        <input type="checkbox" name="class3" value="Shogun"> I am a Shogun</br>
+        <input type="checkbox" name="class1" value="Samouraï"> I am a Samouraï
+        <input type="checkbox" name="class2" value="Daimyo"> I am a Daimyo
+        <input type="checkbox" name="class3" value="Shogun"> I am a Shogun
       </div>
 
-      <textarea placeholder="additional comments"></textarea></br>
+      <textarea placeholder="additional comments"></textarea>
 
       <input type="submit" id="submit">
     </form>
